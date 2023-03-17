@@ -27,5 +27,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Confluent.Kafka" />
+    <None Remove="Commands\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
   </ItemGroup>
 </Project>
