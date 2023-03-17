@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CQRS.ES\CQRS.Core\CQRS.Core\CQRS.Core.csproj" />
+    <ProjectReference Include="..\SocialMediaPost.Command.Domain\SocialMediaPost.Command.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Confluent.Kafka" />
+    <None Remove="Microsoft.Extensions.Options" />
+    <None Remove="MongoDB.Driver" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
+  </ItemGroup>
+</Project>

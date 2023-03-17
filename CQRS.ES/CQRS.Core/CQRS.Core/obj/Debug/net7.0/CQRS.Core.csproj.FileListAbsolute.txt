@@ -1,0 +1,12 @@
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/bin/Debug/net7.0/CQRS.Core.deps.json
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/bin/Debug/net7.0/CQRS.Core.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/bin/Debug/net7.0/CQRS.Core.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/CQRS.Core.csproj.AssemblyReference.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/CQRS.Core.AssemblyInfoInputs.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/CQRS.Core.AssemblyInfo.cs
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/CQRS.Core.csproj.CoreCompileInputs.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/CQRS.Core.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/refint/CQRS.Core.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/CQRS.Core.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/Debug/net7.0/ref/CQRS.Core.dll

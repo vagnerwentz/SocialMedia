@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{8925E8ED-5EBC-4A6D-97AE-D1B67931B460}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SocialMediaPost" expanded="True">
+            <Node name="SocialMediaPost.Command" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Command.SocialMediaPost.Command.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
+</Properties>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CQRS.ES\CQRS.Core\CQRS.Core\CQRS.Core.csproj" />
+    <ProjectReference Include="..\..\SocialMediaPost.Command\SocialMediaPost.Command.Domain\SocialMediaPost.Command.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.Extensions.Hosting" />
+    <None Remove="Confluent.Kafka" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Confluent.Kafka" Version="2.0.2" />
+  </ItemGroup>
+</Project>

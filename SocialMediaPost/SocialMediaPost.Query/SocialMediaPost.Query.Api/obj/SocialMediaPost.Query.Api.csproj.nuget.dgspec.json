@@ -1,0 +1,394 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Api/SocialMediaPost.Query.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj",
+        "projectName": "CQRS.Core",
+        "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj",
+        "packagesPath": "/Users/vagnerwentz/.nuget/packages/",
+        "outputPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vagnerwentz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/SocialMediaPost.Command.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/SocialMediaPost.Command.Domain.csproj",
+        "projectName": "SocialMediaPost.Command.Domain",
+        "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/SocialMediaPost.Command.Domain.csproj",
+        "packagesPath": "/Users/vagnerwentz/.nuget/packages/",
+        "outputPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vagnerwentz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj",
+        "projectName": "SocialMediaPost.Common",
+        "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj",
+        "packagesPath": "/Users/vagnerwentz/.nuget/packages/",
+        "outputPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vagnerwentz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Api/SocialMediaPost.Query.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Api/SocialMediaPost.Query.Api.csproj",
+        "projectName": "SocialMediaPost.Query.Api",
+        "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Api/SocialMediaPost.Query.Api.csproj",
+        "packagesPath": "/Users/vagnerwentz/.nuget/packages/",
+        "outputPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vagnerwentz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj"
+              },
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/SocialMediaPost.Query.Domain.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/SocialMediaPost.Query.Domain.csproj"
+              },
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/SocialMediaPost.Query.Infrastructure.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/SocialMediaPost.Query.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/SocialMediaPost.Query.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/SocialMediaPost.Query.Domain.csproj",
+        "projectName": "SocialMediaPost.Query.Domain",
+        "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/SocialMediaPost.Query.Domain.csproj",
+        "packagesPath": "/Users/vagnerwentz/.nuget/packages/",
+        "outputPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vagnerwentz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/SocialMediaPost.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/SocialMediaPost.Query.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/SocialMediaPost.Query.Infrastructure.csproj",
+        "projectName": "SocialMediaPost.Query.Infrastructure",
+        "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/SocialMediaPost.Query.Infrastructure.csproj",
+        "packagesPath": "/Users/vagnerwentz/.nuget/packages/",
+        "outputPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vagnerwentz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/SocialMediaPost.Command.Domain.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/SocialMediaPost.Command.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
