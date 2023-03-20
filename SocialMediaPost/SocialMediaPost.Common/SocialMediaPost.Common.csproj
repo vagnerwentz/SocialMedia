@@ -9,4 +9,10 @@
   <ItemGroup>
     <ProjectReference Include="..\..\CQRS.ES\CQRS.Core\CQRS.Core\CQRS.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
 </Project>

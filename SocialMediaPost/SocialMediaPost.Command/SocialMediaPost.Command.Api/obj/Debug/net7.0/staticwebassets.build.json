@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2fdpQHEVXKaNGvhJF7WDio5hGB6CYiKw8bpeuTB2qbw=",
+  "Source": "SocialMediaPost.Command.Api",
+  "BasePath": "_content/SocialMediaPost.Command.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

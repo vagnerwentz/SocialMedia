@@ -14,10 +14,14 @@
     <None Remove="Confluent.Kafka" />
     <None Remove="Microsoft.Extensions.Options" />
     <None Remove="MongoDB.Driver" />
+    <None Remove="Dispatchers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="2.0.2" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dispatchers\" />
   </ItemGroup>
 </Project>

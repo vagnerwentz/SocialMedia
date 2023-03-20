@@ -1,0 +1,15 @@
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/bin/Debug/net7.0/SocialMediaPost.Common.deps.json
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/bin/Debug/net7.0/SocialMediaPost.Common.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/bin/Debug/net7.0/SocialMediaPost.Common.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/bin/Debug/net7.0/CQRS.Core.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/bin/Debug/net7.0/CQRS.Core.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.csproj.AssemblyReference.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.AssemblyInfoInputs.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.AssemblyInfo.cs
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.csproj.CoreCompileInputs.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.csproj.CopyComplete
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/refint/SocialMediaPost.Common.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/SocialMediaPost.Common.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Common/obj/Debug/net7.0/ref/SocialMediaPost.Common.dll

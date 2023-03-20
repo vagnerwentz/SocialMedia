@@ -5,12 +5,27 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../CQRS.ES/CQRS.Core/CQRS.Core/Events/BaseEvent.cs">
+    <Files>
+      <File FileName="../CQRS.ES/CQRS.Core/CQRS.Core/Events/BaseEvent.cs" Line="16" Column="1" />
+      <File FileName="SocialMediaPost.Common/Events/PostCreatedEvent.cs" Line="19" Column="1" />
+      <File FileName="SocialMediaPost.Common/Events/PostCreatedEvent (copy).cs" Line="5" Column="1" />
+      <File FileName="SocialMediaPost.Common/Events/PostLikedEvent.cs" Line="10" Column="6" />
+      <File FileName="SocialMediaPost.Common/Events/CommentAddedEvent.cs" Line="18" Column="46" />
+      <File FileName="SocialMediaPost.Common/Events/CommentUpdateEvent.cs" Line="17" Column="40" />
+      <File FileName="SocialMediaPost.Common/Events/CommentRemovedEvent.cs" Line="14" Column="1" />
+      <File FileName="SocialMediaPost.Common/Events/PostRemovedEvent.cs" Line="7" Column="34" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SocialMediaPost" expanded="True">
-            <Node name="SocialMediaPost.Command" expanded="True" />
+            <Node name="CQRS.Core" expanded="True">
+              <Node name="Events" expanded="True" />
+            </Node>
+            <Node name="SocialMediaPost.Common" expanded="True">
+              <Node name="Events" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

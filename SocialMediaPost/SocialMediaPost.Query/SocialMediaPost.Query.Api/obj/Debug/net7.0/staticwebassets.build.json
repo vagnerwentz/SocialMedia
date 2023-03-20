@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "G79B2m67X2YQmCrO5VfkfPoZSfpHWf2yTODkDZ+nDIc=",
+  "Source": "SocialMediaPost.Query.Api",
+  "BasePath": "_content/SocialMediaPost.Query.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

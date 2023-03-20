@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/SocialMediaPost.Query.Api.props" />
+</Project>

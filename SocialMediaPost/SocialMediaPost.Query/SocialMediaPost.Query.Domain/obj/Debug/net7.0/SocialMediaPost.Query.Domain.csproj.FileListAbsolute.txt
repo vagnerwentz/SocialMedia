@@ -1,0 +1,17 @@
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/bin/Debug/net7.0/SocialMediaPost.Query.Domain.deps.json
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/bin/Debug/net7.0/SocialMediaPost.Query.Domain.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/bin/Debug/net7.0/SocialMediaPost.Query.Domain.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/bin/Debug/net7.0/CQRS.Core.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/bin/Debug/net7.0/SocialMediaPost.Common.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/bin/Debug/net7.0/CQRS.Core.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/bin/Debug/net7.0/SocialMediaPost.Common.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.csproj.AssemblyReference.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.AssemblyInfoInputs.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.AssemblyInfo.cs
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.csproj.CoreCompileInputs.cache
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.csproj.CopyComplete
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/refint/SocialMediaPost.Query.Domain.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/SocialMediaPost.Query.Domain.pdb
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/obj/Debug/net7.0/ref/SocialMediaPost.Query.Domain.dll
