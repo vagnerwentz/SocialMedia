@@ -2,9 +2,9 @@
 
 namespace SocialMediaPost.Common.Events;
 
-public class CommentUpdateEvent : BaseEvent
+public class CommentUpdatedEvent : BaseEvent
 {
-	public CommentUpdateEvent() : base(nameof(CommentUpdateEvent))
+	public CommentUpdatedEvent() : base(nameof(CommentUpdatedEvent))
 	{
 	}
 
