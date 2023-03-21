@@ -32,3 +32,28 @@ and we save these state changes in the form of events that are versioned.
 
 The design of the aggregate should therefore allow you to be able to use these events to recreate or replay the latest state of the Aggregate,
 so that you do not have to query the read database for the latest state, else the hard separation of commands and queries would be in vain.
+
+### Event Store - Key Considerations
+
+An Event Store must be an append only store. No update or delete operations should be allowed
+
+Each event that is saved, should represent the version or state of an aggregate at any given point in time
+
+Events should be stored in chronological order and new events should be appended to the previous event
+
+The state of the aggregate should be recreatable by replaying the event store
+
+Implement optimistic concurrency control
+
+
+--
+
+Events e Aggregate Roots são conceitos relacionados que são frequentemente usados em conjunto na implementação de padrões de design de software baseados em Domain-Driven Design (DDD).
+
+Em DDD, um Aggregate Root é uma entidade de negócios que é responsável por garantir a consistência e a integridade dos dados dentro de um grupo relacionado de objetos. Os eventos são usados para notificar outras partes do sistema quando ocorre uma mudança no estado do Aggregate Root.
+
+Quando uma mudança ocorre em um Aggregate Root, em vez de atualizar o estado diretamente no banco de dados, um evento é criado para notificar outras partes do sistema sobre a mudança. Esses eventos são então tratados por outros objetos que podem atualizar o banco de dados ou tomar outras ações necessárias.
+
+Por exemplo, suponha que temos um Aggregate Root "Pedido" que contém informações sobre um pedido de compra em um sistema de comércio eletrônico. Quando um novo pedido é criado, um evento "PedidoCriado" é disparado. Esse evento pode ser tratado por outros objetos, como um serviço de envio, que usa as informações do pedido para enviar uma notificação de envio ao cliente.
+
+Em resumo, os eventos são usados em conjunto com Aggregate Roots para manter a integridade dos dados e permitir que outras partes do sistema respondam a mudanças no estado do Aggregate Root.
