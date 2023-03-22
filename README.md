@@ -51,7 +51,18 @@ Implement optimistic concurrency control
 ![KafkaCluster](https://user-images.githubusercontent.com/26815672/226778952-91c43bce-821d-4801-a193-ef496ca55b51.png)
 
 ## Kafka Broker
-![KafkaBroker](https://user-images.githubusercontent.com/26815672/226779053-e1932f90-a566-4929-b354-da33c87a2e88.png)
+![KafkaBroker](https://user-images.githubusercontent.com/26815672/226779053-e1932f90-a566-4929-b354-da33c87a2e88.png
+
+# Domain Driven Design (DDD)
+An approach to structure and model software in a way that it matches the business domain.
+Places the primary focus of a software project on the core area of the business. (Core Domain)
+Refers to the problems as domains and aims to establish a common language to talk about these problems.
+Describes independent problem areas as Bounded Contexts.
+
+## What is a bounded context?
+It is an independent problem area.
+Describes a logical boundary within which a particular model is defined and applicable.
+Each bounded context correlates to a microservice. (e.g Social Media Post Microservice)
 
 --
 
