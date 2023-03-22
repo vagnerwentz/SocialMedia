@@ -1894,6 +1894,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "MongoDB.Bson": "2.19.0",
           "MongoDB.Driver": "2.19.0"
         },
         "compile": {

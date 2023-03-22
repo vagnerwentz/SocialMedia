@@ -15,6 +15,11 @@
     <None Remove="Microsoft.Extensions.Options" />
     <None Remove="MongoDB.Driver" />
     <None Remove="Dispatchers\" />
+    <None Remove="Repositories\" />
+    <None Remove="Config\" />
+    <None Remove="Stores\" />
+    <None Remove="Handlers\" />
+    <None Remove="Producers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="2.0.2" />
@@ -23,5 +28,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dispatchers\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Config\" />
+    <Folder Include="Stores\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Producers\" />
   </ItemGroup>
 </Project>

@@ -1,31 +1,39 @@
 ﻿<Properties StartupConfiguration="{8925E8ED-5EBC-4A6D-97AE-D1B67931B460}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Command.SocialMediaPost.Command.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="SocialMediaPost.Query/SocialMediaPost.Query.Domain/Aggregates/PostAggregate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Handlers/EventSourcingHandler.cs">
     <Files>
-      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Domain/Aggregates/PostAggregate.cs" Line="61" Column="46" />
-      <File FileName="../CQRS.ES/CQRS.Core/CQRS.Core/Domain/AggregateRoot.cs" Line="40" Column="25" />
+      <File FileName="../CQRS.ES/CQRS.Core/CQRS.Core/Handlers/IEventSourcingHandler.cs" Line="9" Column="42" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Handlers/EventSourcingHandler.cs" Line="20" Column="6" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Api/Program.cs" Line="17" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SocialMediaPost" expanded="True">
-            <Node name="SocialMediaPost.Query" expanded="True">
-              <Node name="SocialMediaPost.Query.Domain" expanded="True">
+            <Node name="SocialMediaPost.Command" expanded="True">
+              <Node name="SocialMediaPost.Command.Api" expanded="True" />
+              <Node name="SocialMediaPost.Command.Domain" expanded="True">
                 <Node name="Aggregates" expanded="True" />
               </Node>
+              <Node name="SocialMediaPost.Command.Infrastructure" expanded="True">
+                <Node name="Handlers" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SocialMediaPost.Query" expanded="True">
+              <Node name="SocialMediaPost.Query.Api" expanded="True" />
             </Node>
             <Node name="CQRS.Core" expanded="True">
-              <Node name="Domain" expanded="True" />
+              <Node name="Handlers" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
