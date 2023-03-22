@@ -45,6 +45,13 @@ The state of the aggregate should be recreatable by replaying the event store
 
 Implement optimistic concurrency control
 
+# Event Producer
+
+## Kafka Cluster
+![KafkaCluster](https://user-images.githubusercontent.com/26815672/226778952-91c43bce-821d-4801-a193-ef496ca55b51.png)
+
+## Kafka Broker
+![KafkaBroker](https://user-images.githubusercontent.com/26815672/226779053-e1932f90-a566-4929-b354-da33c87a2e88.png)
 
 --
 
