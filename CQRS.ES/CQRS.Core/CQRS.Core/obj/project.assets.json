@@ -747,6 +747,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "MongoDB.Bson >= 2.19.0",
       "MongoDB.Driver >= 2.19.0"
     ]
   },
@@ -787,6 +788,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.19.0, )"
+          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.19.0, )"
