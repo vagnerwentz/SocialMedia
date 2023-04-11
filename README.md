@@ -64,6 +64,11 @@ It is an independent problem area.
 Describes a logical boundary within which a particular model is defined and applicable.
 Each bounded context correlates to a microservice. (e.g Social Media Post Microservice)
 
+## Kafka Consumer
+
+
+![KafkaConsumer](https://user-images.githubusercontent.com/26815672/231030437-91d82839-5188-4629-bfc3-6060f3d5d82a.png)
+
 --
 
 Events e Aggregate Roots são conceitos relacionados que são frequentemente usados em conjunto na implementação de padrões de design de software baseados em Domain-Driven Design (DDD).
