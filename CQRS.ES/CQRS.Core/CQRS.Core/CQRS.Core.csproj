@@ -17,6 +17,7 @@
     <None Remove="Exceptions\" />
     <None Remove="Handlers\" />
     <None Remove="Producers\" />
+    <None Remove="Consumers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
@@ -31,5 +32,6 @@
     <Folder Include="Exceptions\" />
     <Folder Include="Handlers\" />
     <Folder Include="Producers\" />
+    <Folder Include="Consumers\" />
   </ItemGroup>
 </Project>
