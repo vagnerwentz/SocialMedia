@@ -10,4 +10,12 @@
     <ProjectReference Include="..\..\..\CQRS.ES\CQRS.Core\CQRS.Core\CQRS.Core.csproj" />
     <ProjectReference Include="..\..\SocialMediaPost.Common\SocialMediaPost.Common.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
 </Project>

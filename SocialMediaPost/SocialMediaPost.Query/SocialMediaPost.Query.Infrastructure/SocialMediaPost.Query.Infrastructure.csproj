@@ -9,15 +9,26 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\CQRS.ES\CQRS.Core\CQRS.Core\CQRS.Core.csproj" />
     <ProjectReference Include="..\..\SocialMediaPost.Command\SocialMediaPost.Command.Domain\SocialMediaPost.Command.Domain.csproj" />
+    <ProjectReference Include="..\SocialMediaPost.Query.Domain\SocialMediaPost.Query.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.Extensions.Hosting" />
     <None Remove="Confluent.Kafka" />
+    <None Remove="DataAccess\" />
+    <None Remove="Microsoft.EntityFrameworkCore.Proxies" />
+    <None Remove="Repositories\" />
+    <None Remove="Handlers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
     <PackageReference Include="Confluent.Kafka" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Handlers\" />
   </ItemGroup>
 </Project>

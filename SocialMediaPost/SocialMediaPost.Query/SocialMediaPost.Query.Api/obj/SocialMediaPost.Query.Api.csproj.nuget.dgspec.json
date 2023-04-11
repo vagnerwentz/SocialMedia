@@ -347,6 +347,9 @@
               },
               "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/SocialMediaPost.Command.Domain.csproj": {
                 "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/SocialMediaPost.Command.Domain.csproj"
+              },
+              "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/SocialMediaPost.Query.Domain.csproj": {
+                "projectPath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Domain/SocialMediaPost.Query.Domain.csproj"
               }
             }
           }
@@ -364,6 +367,10 @@
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[2.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

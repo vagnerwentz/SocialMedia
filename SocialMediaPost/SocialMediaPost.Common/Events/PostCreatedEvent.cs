@@ -13,6 +13,6 @@ public class PostCreatedEvent : BaseEvent
 
 	public string Message { get; set; }
 
-	public DateTime DatePosted { get; set; }
+	public DateTime PostedAt { get; set; }
 }
 

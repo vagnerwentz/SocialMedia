@@ -15,6 +15,6 @@ public class CommentAddedEvent : BaseEvent
 
     public string Username { get; set; }
 
-    public DateTime CommentDate { get; set; }
+    public DateTime CommentedAt { get; set; }
 }
 

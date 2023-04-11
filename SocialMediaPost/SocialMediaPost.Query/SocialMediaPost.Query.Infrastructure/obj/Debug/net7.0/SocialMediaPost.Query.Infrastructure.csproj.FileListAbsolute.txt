@@ -17,3 +17,5 @@
 /Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/obj/Debug/net7.0/refint/SocialMediaPost.Query.Infrastructure.dll
 /Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/obj/Debug/net7.0/SocialMediaPost.Query.Infrastructure.pdb
 /Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/obj/Debug/net7.0/ref/SocialMediaPost.Query.Infrastructure.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/bin/Debug/net7.0/SocialMediaPost.Query.Domain.dll
+/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/bin/Debug/net7.0/SocialMediaPost.Query.Domain.pdb

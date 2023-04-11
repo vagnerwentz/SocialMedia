@@ -1,27 +1,25 @@
-﻿<Properties StartupConfiguration="{8925E8ED-5EBC-4A6D-97AE-D1B67931B460}|https">
-  <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Command.SocialMediaPost.Command.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Stores/EventStore.cs">
+﻿<Properties StartupConfiguration="{B5856504-564B-4556-837A-2F87C4767A89}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SocialMediaPost.Query/SocialMediaPost.Query.Api/appsettings.json">
     <Files>
-      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Stores/EventStore.cs" Line="53" Column="42" />
-      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Api/Program.cs" Line="22" Column="55" />
-      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Api/appsettings.Development.json" Line="14" Column="41" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/DataAccess/DatabaseContext.cs" Line="16" Column="2" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Domain/Entities/PostEntity.cs" Line="10" Column="7" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/DataAccess/DatabaseContextFactory.cs" Line="23" Column="1" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Api/Program.cs" Line="11" Column="30" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Api/appsettings.json" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SocialMediaPost" expanded="True">
-            <Node name="SocialMediaPost.Command" expanded="True">
-              <Node name="SocialMediaPost.Command.Api" expanded="True">
-                <Node name="appsettings.json" expanded="True">
-                  <Node name="appsettings.Development.json" selected="True" />
-                </Node>
+            <Node name="SocialMediaPost.Query" expanded="True">
+              <Node name="SocialMediaPost.Query.Api" expanded="True">
+                <Node name="appsettings.json" expanded="True" selected="True" />
               </Node>
-              <Node name="SocialMediaPost.Command.Infrastructure" expanded="True">
-                <Node name="Stores" expanded="True" />
+              <Node name="SocialMediaPost.Query.Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+              <Node name="SocialMediaPost.Query.Infrastructure" expanded="True">
+                <Node name="DataAccess" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -29,6 +27,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Command.SocialMediaPost.Command.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Query.SocialMediaPost.Query.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
 </Properties>

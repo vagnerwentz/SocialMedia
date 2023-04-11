@@ -72,6 +72,17 @@
           }
         }
       },
+      "Castle.Core/5.1.0": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
       "Confluent.Kafka/2.0.2": {
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -333,6 +344,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/7.0.4": {},
+      "Microsoft.EntityFrameworkCore.Proxies/7.0.4": {
+        "dependencies": {
+          "Castle.Core": "5.1.0",
+          "Microsoft.EntityFrameworkCore": "7.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll": {
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.423.11504"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/7.0.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.4",
@@ -1090,9 +1113,11 @@
         "dependencies": {
           "CQRS.Core": "1.0.0",
           "Confluent.Kafka": "2.0.2",
+          "Microsoft.EntityFrameworkCore.Proxies": "7.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",
           "Microsoft.Extensions.Hosting": "7.0.1",
-          "SocialMediaPost.Command.Domain": "1.0.0"
+          "SocialMediaPost.Command.Domain": "1.0.0",
+          "SocialMediaPost.Query.Domain": "1.0.0"
         },
         "runtime": {
           "SocialMediaPost.Query.Infrastructure.dll": {}
@@ -1133,6 +1158,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "Castle.Core/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31UJpTHOiWq95CDOHazE3Ub/hE/PydNWsJMwnEVTqFFP4WhAugwpaVGxzOxKgNeSUUeqS2W6lxV+q7u1pAOfXg==",
+      "path": "castle.core/5.1.0",
+      "hashPath": "castle.core.5.1.0.nupkg.sha512"
     },
     "Confluent.Kafka/2.0.2": {
       "type": "package",
@@ -1210,6 +1242,13 @@
       "sha512": "sha512-YRD4bViuaEPEsaBIL52DzXGzLCt3jYoE3wztYEW1QZYDl89hQ+ca0nvBO2mnMHmCXpU/2wlErrUyDp4x5B/3mg==",
       "path": "microsoft.entityframeworkcore.analyzers/7.0.4",
       "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Proxies/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZjJpJynbfKJ97K0TaV1Ac8Lkk25v1OX0cxCjusIrsoPozD1rX0jCowOWBR2rWfuhwVwrJDE5AL0M2se4a+d8oQ==",
+      "path": "microsoft.entityframeworkcore.proxies/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.proxies.7.0.4.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.4": {
       "type": "package",

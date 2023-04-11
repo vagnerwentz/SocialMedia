@@ -29,7 +29,7 @@ public class PostAggregate : AggregateRoot
             Id = id,
             Author = author,
             Message = message,
-            DatePosted = DateTime.Now
+            PostedAt = DateTime.Now
         });
     }
 
@@ -100,7 +100,7 @@ public class PostAggregate : AggregateRoot
             CommentId = Guid.NewGuid(),
             Comment = comment,
             Username = username,
-            CommentDate = DateTime.Now
+            CommentedAt = DateTime.Now
         });
     }
 

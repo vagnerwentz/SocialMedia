@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c3KHRR8pSyHBO1OFfBbgamrMmP6KGgKwxFQTfXcx8a54GQPrh1nKyc+Apy9tVhiZSmqRsAy5KiS4Vzm5FPl8uQ==",
+  "dgSpecHash": "nX/azUCrBk+sJejR0uMCzUgBXzLZ1MKmPdhIdxunZtbMEkNzXMOFid/LNiO9SfNyOh2m7APXq18t1wuYgd5MmA==",
   "success": true,
   "projectFilePath": "/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/SocialMediaPost.Query.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/vagnerwentz/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/confluent.kafka/2.0.2/confluent.kafka.2.0.2.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/librdkafka.redist/2.0.2/librdkafka.redist.2.0.2.nupkg.sha512",
@@ -18,6 +19,7 @@
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore/7.0.4/microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.4/microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.4/microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
+    "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.proxies/7.0.4/microsoft.entityframeworkcore.proxies.7.0.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.4/microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.4/microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512",
     "/Users/vagnerwentz/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
