@@ -2,6 +2,11 @@
 
 ## .NET Microservices: CQRS & Event Sourcing with Kafka
 
+## Architecture
+
+![Arch](https://user-images.githubusercontent.com/26815672/231030817-e6ea8685-6161-458f-b06f-801d5289a25f.png)
+
+
 ### What is a Command?
 A Command, is a combination of expressed intent. In other words it describes an action that you want to be performed. 
 It also contains the information that is required to undertake the desired action.
