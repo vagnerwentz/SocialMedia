@@ -1,17 +1,82 @@
 ﻿<Properties StartupConfiguration="{B5856504-564B-4556-837A-2F87C4767A89}|http">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Dispatchers/CommandDispatcher.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Dispatchers/CommandDispatcher.cs" line="23" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Api/Commands/CommandHandler.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Api/Commands/CommandHandler.cs" line="18" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Api/Commands/CommandHandler.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Api/Commands/CommandHandler.cs" line="20" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Domain/Aggregates/PostAggregate.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Domain/Aggregates/PostAggregate.cs" line="28" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/Domain/AggregateRoot.cs" line="46" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/Domain/AggregateRoot.cs" line="30" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Handlers/EventSourcingHandler.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Handlers/EventSourcingHandler.cs" line="34" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Stores/EventStore.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Stores/EventStore.cs" line="39" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/Domain/AggregateRoot.cs" line="25" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/CQRS.ES/CQRS.Core/CQRS.Core/Domain/AggregateRoot.cs" line="20" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Repositories/EventStoreRepository.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Repositories/EventStoreRepository.cs" line="25" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Stores/EventStore.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Stores/EventStore.cs" line="64" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Repositories/EventStoreRepository.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Repositories/EventStoreRepository.cs" line="32" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Handlers/EventHandler.cs" relfile="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Handlers/EventHandler.cs" line="21" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Repositories/PostRepository.cs" relfile="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Repositories/PostRepository.cs" line="20" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Command/SocialMediaPost.Command.Api/Controllers/NewPostController.cs" relfile="SocialMediaPost.Command/SocialMediaPost.Command.Api/Controllers/NewPostController.cs" line="29" column="1" />
+      <Breakpoint file="/Users/vagnerwentz/Documents/learning/Udemy/SocialMedia/SocialMediaPost/SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Consumers/ConsumerHostedService.cs" relfile="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Consumers/ConsumerHostedService.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../CQRS.ES/CQRS.Core/CQRS.Core/Consumers/IEventConsumer.cs">
+  <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Command.SocialMediaPost.Command.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SocialMediaPost.Query/SocialMediaPost.Query.Api/Program.cs">
     <Files>
-      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Handlers/EventHandler.cs" Line="17" Column="3" />
-      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Api/Program.cs" Line="30" Column="44" />
-      <File FileName="../CQRS.ES/CQRS.Core/CQRS.Core/Consumers/IEventConsumer.cs" Line="9" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Api/Controllers/NewPostController.cs" Line="58" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Dispatchers/CommandDispatcher.cs" Line="30" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Api/Commands/CommandHandler.cs" Line="21" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Domain/Aggregates/PostAggregate.cs" Line="34" Column="1" />
+      <File FileName="../CQRS.ES/CQRS.Core/CQRS.Core/Domain/AggregateRoot.cs" Line="26" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Handlers/EventSourcingHandler.cs" Line="36" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Stores/EventStore.cs" Line="71" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Repositories/EventStoreRepository.cs" Line="34" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Infrastructure/Producers/EventProducer.cs" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Consumers/ConsumerHostedService.cs" Line="33" Column="1" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Consumers/EventConsumer.cs" Line="30" Column="35" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Handlers/EventHandler.cs" Line="24" Column="36" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Infrastructure/Repositories/PostRepository.cs" Line="25" Column="1" />
+      <File FileName="SocialMediaPost.Query/SocialMediaPost.Query.Api/Program.cs" Line="54" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Api/Program.cs" Line="59" Column="1" />
+      <File FileName="SocialMediaPost.Command/SocialMediaPost.Command.Api/DTOs/NewPostResponse.cs" Line="8" Column="1" />
+      <File FileName="SocialMediaPost.Common/DTOs/BaseResponse.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SocialMediaPost" expanded="True">
+            <Node name="SocialMediaPost.Command" expanded="True">
+              <Node name="SocialMediaPost.Command.Api" expanded="True">
+                <Node name="Commands" expanded="True" />
+                <Node name="Controllers" expanded="True" />
+                <Node name="DTOs" expanded="True" />
+              </Node>
+              <Node name="SocialMediaPost.Command.Domain" expanded="True">
+                <Node name="Aggregates" expanded="True" />
+              </Node>
+              <Node name="SocialMediaPost.Command.Infrastructure" expanded="True">
+                <Node name="Dispatchers" expanded="True" />
+                <Node name="Handlers" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+                <Node name="Stores" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SocialMediaPost.Query" expanded="True">
+              <Node name="SocialMediaPost.Query.Api" expanded="True" />
+              <Node name="SocialMediaPost.Query.Infrastructure" expanded="True">
+                <Node name="Consumers" expanded="True" />
+                <Node name="Handlers" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
             <Node name="CQRS.Core" expanded="True">
-              <Node name="Consumers" expanded="True" />
+              <Node name="Domain" expanded="True" />
+            </Node>
+            <Node name="SocialMediaPost.Common" expanded="True">
+              <Node name="DTOs" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -19,10 +84,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Query.SocialMediaPost.Query.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SocialMediaPost.Command.SocialMediaPost.Command.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MultiItemStartupConfigurations />
 </Properties>

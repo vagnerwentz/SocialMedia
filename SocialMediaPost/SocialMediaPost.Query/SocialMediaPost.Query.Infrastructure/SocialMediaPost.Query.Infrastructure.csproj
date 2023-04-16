@@ -19,6 +19,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.Proxies" />
     <None Remove="Repositories\" />
     <None Remove="Handlers\" />
+    <None Remove="Converters\" />
+    <None Remove="Consumers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
@@ -30,5 +32,7 @@
     <Folder Include="DataAccess\" />
     <Folder Include="Repositories\" />
     <Folder Include="Handlers\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Consumers\" />
   </ItemGroup>
 </Project>
