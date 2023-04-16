@@ -2,6 +2,18 @@
 
 ## .NET Microservices: CQRS & Event Sourcing with Kafka
 
+## How to run the images
+```
+> Find the docker-compose.yml and run the CLI command and the Kafka it will be installed
+$ docker-compose up -d
+
+> Open the terminal to install the Mongo database
+$ docker run -it -d --name mongo-container -p 27017:27017 --restart always -v mongodb_data_container:/data/db mongo:latest
+
+> Open the terminal to install de Azure SQL Edge, if you use Windows/Mac Intel/Linux, you can use the SQL Server image.
+$ docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=$tr0ngS@P@ssw0rd02" -e "MSSQL_PID=Developer" -e "MSSQL_USER=sa" -p 1433:1433 -d --name=sql mcr.microsoft.com/azure-sql-edge
+```
+
 ## Architecture
 
 ![Arch](https://user-images.githubusercontent.com/26815672/231030817-e6ea8685-6161-458f-b06f-801d5289a25f.png)
